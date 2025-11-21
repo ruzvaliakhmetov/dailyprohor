@@ -15,7 +15,7 @@ BASE_DIR_URL = os.getenv(
 
 # Сколько у тебя файлов sticker512x512_01.png, sticker512x512_02.png, ...
 # Можно задать через переменную окружения IMAGE_COUNT
-IMAGE_COUNT = int(os.getenv("IMAGE_COUNT", "3"))
+IMAGE_COUNT = int(os.getenv("IMAGE_COUNT", "4"))
 
 
 def download_random_image(output_path: str = "sticker.png") -> None:
