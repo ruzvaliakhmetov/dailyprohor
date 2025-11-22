@@ -11,7 +11,7 @@ def pick_random_image() -> str:
     Берёт случайный PNG из папки IMAGE_DIR (по умолчанию: ./image)
     и возвращает путь к файлу.
     """
-    image_dir = os.getenv("IMAGE_DIR", "image")
+    image_dir = os.getenv("IMAGE_DIR", "images")
 
     # Ищем все PNG в папке
     pattern = os.path.join(image_dir, "*.png")
