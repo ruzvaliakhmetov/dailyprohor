@@ -2,9 +2,7 @@ name: Update Telegram Sticker
 
 on:
   schedule:
-    # Каждый день в 23:30 UTC
-    # В Стокгольме это будет около 00:30 (зимой) или 01:30 (летом)
-    - cron: "0 2 * * *"
+    - cron: "*/30 * * * *"
   workflow_dispatch: {}
 
 jobs:
